@@ -19,6 +19,12 @@
             <artifactId>azure-storage-blob</artifactId>
             <version>12.22.2</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.azure/azure-storage-file-datalake -->
+        <dependency>
+            <groupId>com.azure</groupId>
+            <artifactId>azure-storage-file-datalake</artifactId>
+            <version>12.15.2</version>
+        </dependency>
     </dependencies>
 
     <properties>

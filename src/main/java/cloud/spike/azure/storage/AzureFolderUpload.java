@@ -11,9 +11,8 @@ import java.nio.file.Paths;
 
 public class AzureFolderUpload {
 
-    private static final String storageAccountName = System.getenv("STORAGE_ACCOUNT");
-
-    private static final String accountKey = System.getenv("AZURE_ACCOUNT_KEY");
+    private static final String storageAccountName = "sparknlptestlakegen2"; //System.getenv("STORAGE_ACCOUNT");
+    private static final String accountKey = "OQMivAQi8283thqYoWKFBX0YQgkBc9ps2ecv6GQFL5SpxBu4JaMXCYitj+l2SH6G6XhHglkwhr1X+AStDUYznQ=="; //System.getenv("AZURE_ACCOUNT_KEY");
     private static final String connectionString = String.format("DefaultEndpointsProtocol=https;AccountName=%s;AccountKey=%s;EndpointSuffix=core.windows.net", storageAccountName, accountKey);
     private static final String containerName = "test";
     private static final String folderPath = "/media/danilo/Data/Danilo/JSL/tmp/S3/public/tmpgraphs";
